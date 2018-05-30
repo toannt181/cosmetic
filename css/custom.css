@@ -1,0 +1,33 @@
+.shelf-list {}
+
+.shelf-list .item {
+  padding: 0 15px;
+  position: relative;
+}
+
+.shelf-list .item .prod-tag {
+  position: absolute;
+  top: 15px;
+  left: 50%;
+  text-align: center;
+  transform: translateX(-50%)
+}
+
+.shelf-list .item .product-media {
+  height: auto;
+}
+
+.shelf-list .item .shape {
+  z-index: -1;
+}
+
+.shelf-list .owl-dots .owl-dot.active span{
+  background-color: #92d2a7;
+}
+
+.shelf-list .owl-dots .owl-dot span{
+  background-color: #f7f6f2;
+  width: 50px ;
+  height: 8px;
+  margin: 0;
+}
