@@ -8468,3 +8468,7 @@ body#layout ul li {
   list-style-type: none;
   list-style: none
 }
+
+.pattern img {
+  width: 100%;
+}
