@@ -10,7 +10,7 @@
   top: 15px;
   left: 50%;
   text-align: center;
-  transform: translateX(-50%)
+  transform: translateX(-50%);
 }
 
 .shelf-list .item .product-media {
@@ -37,7 +37,7 @@
 }
 
 .main_contact {
-  background-image: url(https://1.bp.blogspot.com/-DLuVCY5u7xo/Wi98vSUCkzI/AAAAAAAAEEc/tC9zkzxAW0kls64kxqJIsZ4DPfmXR9umACLcBGAs/s1600/bg_contact_map.png);
+  background-image: url(https://1bp.blogspot.com/-DLuVCY5u7xo/Wi98vSUCkzI/AAAAAAAAEEc/tC9zkzxAW0kls64kxqJIsZ4DPfmXR9umACLcBGAs/s1600/bg_contact_map.png);
   background-repeat: repeat;
   width: 100%;
   height: 100%;
@@ -120,4 +120,22 @@
 #google-map {
   height: 400px;
   width: 100%;
+}
+
+.label-head {
+  margin-left: 0px;
+}
+
+span.drop {
+  color: #f34764;
+}
+
+.label-head a {
+  padding-left: 2px;
+  background: #f34764;
+  padding: 3px 10px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 12px;
+  position: relative;
 }
