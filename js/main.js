@@ -51,4 +51,37 @@
       }
     }
   })
+  $('#product_galary').owlCarousel({
+    loop: true,
+    margin: 10,
+    nav: true,
+    responsive: {
+      0: {
+        items: 4
+      },
+    }
+  })
+
+  $('#product_galary .item').click(function() {
+    console.log($(this).find('img').attr('src'))
+    $('#zoom_01').attr('src', $(this).find('img').attr('src'))
+    setupZoomImage()  
+  })
+
+  setupZoomImage()
+
+  function setupZoomImage() {
+    $("#zoom_01").elevateZoom({
+      gallery: "gallery_01",
+      zoomWindowWidth: 420,
+      zoomWindowHeight: 500,
+      zoomWindowOffetx: 10,
+      easing: !0,
+      scrollZoom: !0,
+      cursor: "pointer",
+      galleryActiveClass: "active",
+      imageCrossfade: !0
+    })
+  }
+
 })()

@@ -8395,7 +8395,7 @@ html .ui-button.ui-state-disabled:active {
   display: none
 }
 
---></style><style type="text/css">.post-outer {
+.post-outer {
   padding-right: 15px;
   padding-left: 15px;
   float: left;
@@ -8414,11 +8414,6 @@ html .ui-button.ui-state-disabled:active {
   }
 }
 
-#Blog1,
-.main_azatemplate {
-  display: none !important;
-  visibility: hidden !important
-}
 
 .home-wrap .main-header {
   left: 0;
@@ -8472,4 +8467,3 @@ body#layout ul li {
 .pattern img {
   width: 100%;
 }
-

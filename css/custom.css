@@ -139,3 +139,53 @@ span.drop {
   font-size: 12px;
   position: relative;
 }
+
+.at-style-responsive .at-share-btn {
+  padding: 5px;
+  margin-right: 4px;
+}
+
+.at-icon-wrapper {
+  vertical-align: middle;
+}
+
+.at-icon-wrapper .at-label {
+  font-size: 10.2px;
+  color: rgb(255, 255, 255);
+}
+
+.at4-visually-hidden {
+  display: none;
+}
+
+#product_galary .owl-dots {
+  display: none;
+}
+
+#product_galary .owl-nav button {
+  position: absolute;
+  top: 50%;
+  opacity: 1;
+  height: 42px;
+  width: 42px;
+  line-height: 42px;
+  text-align: center;
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.05);
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+  font-size: 24px;
+  border: none;
+  outline: 0;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+#product_galary .owl-nav .owl-next {
+  right: 0;
+}
+
+#product_galary .owl-nav .owl-prev {
+  left: 0;
+}
