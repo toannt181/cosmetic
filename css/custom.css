@@ -189,3 +189,17 @@ span.drop {
 #product_galary .owl-nav .owl-prev {
   left: 0;
 }
+
+.pogoSlider .pogoSlider-progressBar-duration {
+  background: rgb(76, 217, 100)
+}
+
+.pogoSlider .pogoSlider-nav-btn {
+  transform: scale(0.75);
+  border: 1px solid white;
+  background: transparent;
+}
+
+.pogoSlider .pogoSlider-nav-btn.pogoSlider-nav-btn--selected {
+  background: white;
+}
